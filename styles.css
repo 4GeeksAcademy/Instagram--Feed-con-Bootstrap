@@ -1,0 +1,81 @@
+body {
+    background-color: #fafafa;
+}
+
+.navbar {
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.navbar-brand img {
+    height: auto;
+}
+
+.btn-primary {
+    margin-right: 5px;
+}
+
+.container {
+    max-width: 450px;
+    margin: auto;
+}
+
+.small-icon {
+    font-size: 0.7em;
+}
+
+.my-button:hover {
+    background-color: blue !important;
+    color: white;
+}
+
+.post {
+    width: auto;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 10px;
+    background: #fff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 24px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.post-title {
+    font-size: 1rem;
+    margin-right: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.post-date {
+    align-self: center;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+
+.post img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.likes {
+    font-weight: bold;
+}
+#mosaic-container .img-thumbnail {
+    margin-bottom: 4px;
+}
+
+#mosaic-container .col-4 {
+    padding: 2px;
+}
+
+#mosaic-container img {
+    width: 100%;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+
