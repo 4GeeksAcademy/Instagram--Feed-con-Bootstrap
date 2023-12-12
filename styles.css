@@ -56,16 +56,25 @@ body {
 }
 
 .post img {
+    max-width: 800px; /* Puedes ajustar este valor según tus necesidades */
     width: 100%;
     height: auto;
     border-radius: 5px;
 }
 
+
+.custom-width {
+    width: 300px; /* Puedes ajustar este valor según tus necesidades */
+    max-width: 100%;
+}
+
+
+
 .likes {
     font-weight: bold;
 }
 #mosaic-container .img-thumbnail {
-    margin-bottom: 4px;
+    margin-bottom: 9px;
 }
 
 #mosaic-container .col-4 {
@@ -77,5 +86,6 @@ body {
     border: 1px solid #ddd;
     box-sizing: border-box;
 }
+
 
 
